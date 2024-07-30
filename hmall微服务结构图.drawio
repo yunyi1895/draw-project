@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.6">
   <diagram name="第 1 页" id="HG3GEFOJMeY1fM_Ur6Mi">
-    <mxGraphModel dx="5751" dy="3346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3703" dy="2258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -187,6 +187,14 @@
         </mxCell>
         <mxCell id="a9ZYFR0yFpN4XZ44wN_L-95" value="UserIdFeignInterceptor&lt;br&gt;拦截器，把上下文的userId，写入到header里面，这样调用其他微服务的时候，其他微服务就可以拿到" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="610" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="a9ZYFR0yFpN4XZ44wN_L-96" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.886;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;shape=flexArrow;startArrow=block;" edge="1" parent="1" source="a9ZYFR0yFpN4XZ44wN_L-12" target="a9ZYFR0yFpN4XZ44wN_L-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9ZYFR0yFpN4XZ44wN_L-97" value="发现服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="a9ZYFR0yFpN4XZ44wN_L-96">
+          <mxGeometry x="-0.0402" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
